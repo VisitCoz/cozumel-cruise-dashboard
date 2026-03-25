@@ -123,6 +123,16 @@ function formatDateNice(dateStr) {
     return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
 }
 
+// ── VIP Cruise Lines (active tour partnerships) ───
+const VIP_LINES = [
+    { pattern: /CELEBRITY/i, label: '⭐', tag: 'Tour Partner' },
+    { pattern: /DISNEY/i, label: '🏰', tag: 'Tour Partner' },
+];
+
+function isVIP(shipName) {
+    return VIP_LINES.find(v => v.pattern.test(shipName));
+}
+
 // ── Message builders ──────────────────────────────
 function buildDayMessage(dateStr, ships, label) {
     if (ships.length === 0) {
@@ -130,44 +140,97 @@ function buildDayMessage(dateStr, ships, label) {
     }
 
     const totalPax = ships.reduce((sum, s) => sum + (getCapacity(s.ship) || 0), 0);
+    const vipShips = ships.filter(s => isVIP(s.ship));
 
-    let msg = `⚓ <b>${label} - ${formatDateNice(dateStr)}</b>\n`;
-    msg += `📊 ${ships.length} ships | ~${totalPax.toLocaleString()} passengers\n\n`;
+    let msg = `⚓ <b>${label}</b>\n`;
+    msg += `📆 ${formatDateNice(dateStr)}\n`;
+    msg += `📊 ${ships.length} ships | ~${totalPax.toLocaleString()} passengers\n`;
+
+    // VIP alert at the top
+    if (vipShips.length > 0) {
+        msg += `\n🔔 <b>TOUR PARTNER SHIPS TODAY:</b>\n`;
+        vipShips.forEach(ship => {
+            const name = cleanShipName(ship.ship);
+            const vip = isVIP(ship.ship);
+            const cap = getCapacity(ship.ship);
+            const capStr = cap ? ` (${cap.toLocaleString()} pax)` : '';
+            msg += `${vip.label} <b>${name}</b>${capStr}\n`;
+            msg += `   📍 ${ship.terminal} | 🕐 ${ship.eta} → ${ship.etd}\n`;
+        });
+    }
+
+    // All ships
+    msg += `\n━━━━━━━━━━━━━━━━━━━━━\n`;
+    msg += `📋 <b>All Ships:</b>\n\n`;
 
     ships.forEach((ship, i) => {
         const name = cleanShipName(ship.ship);
+        const vip = isVIP(ship.ship);
         const cap = getCapacity(ship.ship);
-        const capStr = cap ? ` (${cap.toLocaleString()} pax)` : '';
-        msg += `${i + 1}. <b>${name}</b>${capStr}\n`;
-        msg += `   📍 ${ship.terminal}\n`;
-        msg += `   🕐 ${ship.eta} → ${ship.etd}\n\n`;
+        const capStr = cap ? ` · ${cap.toLocaleString()} pax` : '';
+        const star = vip ? ' ⭐' : '';
+        msg += `${i + 1}. <b>${name}</b>${star}\n`;
+        msg += `    📍 ${ship.terminal}${capStr}\n`;
+        msg += `    🕐 ${ship.eta} → ${ship.etd}\n\n`;
     });
 
-    return msg.trim();
+    msg += `🔗 Source: APIQROO Port Authority`;
+    return msg;
 }
 
 function buildWeekMessage(schedule) {
-    let msg = `📅 <b>Cozumel Weekly Cruise Schedule</b>\n\n`;
+    let msg = `📅 <b>Cozumel Weekly Cruise Schedule</b>\n`;
+    msg += `━━━━━━━━━━━━━━━━━━━━━\n\n`;
 
+    // First: VIP summary for the whole week
+    let vipDays = [];
     for (let i = 0; i < 7; i++) {
         const d = new Date();
         d.setDate(d.getDate() + i);
         const dateStr = d.toISOString().split('T')[0];
         const ships = getShipsForDate(schedule, dateStr);
-        const dayName = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
-        const isToday = i === 0;
-
-        if (ships.length === 0) {
-            msg += `${isToday ? '👉 ' : ''}${dayName}: <i>No ships</i>\n`;
-        } else {
-            const names = ships.map(s => cleanShipName(s.ship)).join(', ');
-            const totalPax = ships.reduce((sum, s) => sum + (getCapacity(s.ship) || 0), 0);
-            msg += `${isToday ? '👉 ' : ''}${dayName}: <b>${ships.length} ships</b> (~${totalPax.toLocaleString()} pax)\n`;
-            msg += `   ${names}\n`;
+        const vips = ships.filter(s => isVIP(s.ship));
+        if (vips.length > 0) {
+            const dayName = d.toLocaleDateString('en-US', { weekday: 'short' });
+            vips.forEach(s => {
+                const vip = isVIP(s.ship);
+                vipDays.push(`${vip.label} <b>${cleanShipName(s.ship)}</b> — ${dayName} ${s.eta}`);
+            });
         }
     }
 
-    msg += `\n🔗 Source: APIQROO Port Authority`;
+    if (vipDays.length > 0) {
+        msg += `🔔 <b>TOUR PARTNERS THIS WEEK:</b>\n`;
+        msg += vipDays.join('\n') + '\n';
+        msg += `\n━━━━━━━━━━━━━━━━━━━━━\n\n`;
+    }
+
+    // Day by day
+    for (let i = 0; i < 7; i++) {
+        const d = new Date();
+        d.setDate(d.getDate() + i);
+        const dateStr = d.toISOString().split('T')[0];
+        const ships = getShipsForDate(schedule, dateStr);
+        const dayName = d.toLocaleDateString('en-US', { weekday: 'long', month: 'short', day: 'numeric' });
+        const isToday = i === 0;
+        const totalPax = ships.reduce((sum, s) => sum + (getCapacity(s.ship) || 0), 0);
+
+        if (ships.length === 0) {
+            msg += `${isToday ? '👉 ' : '📌 '}<b>${dayName}</b>\n`;
+            msg += `    <i>No ships</i>\n\n`;
+        } else {
+            msg += `${isToday ? '👉 ' : '📌 '}<b>${dayName}</b> — ${ships.length} ships (~${totalPax.toLocaleString()} pax)\n`;
+            ships.forEach(s => {
+                const name = cleanShipName(s.ship);
+                const vip = isVIP(s.ship);
+                const star = vip ? ' ⭐' : '';
+                msg += `    • ${name}${star} · ${s.terminal} · ${s.eta}-${s.etd}\n`;
+            });
+            msg += `\n`;
+        }
+    }
+
+    msg += `🔗 Source: APIQROO Port Authority`;
     return msg;
 }
 
