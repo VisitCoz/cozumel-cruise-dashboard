@@ -224,7 +224,7 @@ function buildWeekMessage(schedule) {
                 const name = cleanShipName(s.ship);
                 const vip = isVIP(s.ship);
                 const star = vip ? ' ⭐' : '';
-                msg += `    • ${name}${star} · ${s.terminal} · ${s.eta}-${s.etd}\n`;
+                msg += `    • ${name}${star} · ${s.terminal}\n`;
             });
             msg += `\n`;
         }
