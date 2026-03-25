@@ -1,0 +1,45 @@
+name: Update Cruise Schedule
+
+on:
+  schedule:
+    # Runs at 6:00 AM CST (12:00 UTC) on the 1st and 15th of every month
+    - cron: '0 12 1,15 * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+
+jobs:
+  scrape-and-notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Scrape current month
+        run: node scrape-schedule.js
+
+      - name: Scrape next month
+        run: |
+          NEXT_MONTH=$(date -d "next month" +%Y' '%m | sed 's/ 0/ /')
+          node scrape-schedule.js $NEXT_MONTH
+
+      - name: Send Telegram notifications
+        if: env.TELEGRAM_BOT_TOKEN != ''
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
+        run: node notify-telegram.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git diff --quiet schedule-data.json || {
+            git add schedule-data.json
+            git commit -m "Auto-update cruise schedule $(date +%Y-%m-%d)"
+            git push
+          }

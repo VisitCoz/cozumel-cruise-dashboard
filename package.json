@@ -1,0 +1,28 @@
+{
+  "name": "cozumel-cruise-dashboard",
+  "version": "1.0.0",
+  "description": "Live Cozumel cruise ship dashboard with data from APIQROO port authority",
+  "main": "app.js",
+  "scripts": {
+    "scrape": "node scrape-schedule.js",
+    "scrape:next": "node -e \"const d=new Date();d.setMonth(d.getMonth()+1);console.log(d.getFullYear(),d.getMonth()+1)\" | xargs node scrape-schedule.js",
+    "notify": "node notify-telegram.js",
+    "notify:week": "node notify-telegram.js --week",
+    "notify:setup": "node notify-telegram.js --setup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VisitCoz/cozumel-cruise-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/VisitCoz/cozumel-cruise-dashboard/issues"
+  },
+  "homepage": "https://github.com/VisitCoz/cozumel-cruise-dashboard#readme",
+  "dependencies": {
+    "cheerio": "^1.2.0"
+  }
+}

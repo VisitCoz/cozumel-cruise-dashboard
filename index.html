@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cozumel Cruise Ship Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <h1 class="logo">&#9875; Cozumel Port Dashboard</h1>
+                <span class="subtitle">Live Cruise Ship Tracker</span>
+            </div>
+            <div class="header-right">
+                <div class="date-display" id="currentDate"></div>
+                <div class="last-updated" id="lastUpdated">Updated just now</div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="tab-nav">
+        <button class="tab-btn active" data-tab="today">Today in Port</button>
+        <button class="tab-btn" data-tab="week">This Week</button>
+        <button class="tab-btn" data-tab="calendar">Calendar</button>
+    </nav>
+
+    <main class="main-content">
+        <!-- Today's Ships -->
+        <section class="tab-panel active" id="tab-today">
+            <div class="stats-bar">
+                <div class="stat">
+                    <span class="stat-value" id="shipsToday">0</span>
+                    <span class="stat-label">Ships Today</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="passengersToday">0</span>
+                    <span class="stat-label">Est. Passengers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="docksActive">0</span>
+                    <span class="stat-label">Docks Active</span>
+                </div>
+            </div>
+            <div class="dock-legend">
+                <span class="dock-tag punta-langosta">Punta Langosta</span>
+                <span class="dock-tag ssa">SSA Mexico</span>
+                <span class="dock-tag puerta-maya">Puerta Maya</span>
+            </div>
+            <div class="ship-grid" id="todayGrid">
+                <div class="empty-state">No ships in port today</div>
+            </div>
+        </section>
+
+        <!-- This Week -->
+        <section class="tab-panel" id="tab-week">
+            <div class="week-list" id="weekList">
+                <div class="empty-state">No ships scheduled this week</div>
+            </div>
+        </section>
+
+        <!-- Calendar View -->
+        <section class="tab-panel" id="tab-calendar">
+            <div class="calendar-header">
+                <button class="cal-nav" id="calPrev">&larr; Prev</button>
+                <h2 class="cal-title" id="calTitle">Week of March 16, 2026</h2>
+                <button class="cal-nav" id="calNext">Next &rarr;</button>
+            </div>
+            <div class="calendar-grid" id="calendarGrid"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Data: <a href="https://servicios.apiqroo.com.mx/programacion/" target="_blank" rel="noopener">APIQROO - Cozumel Port Authority</a>. Ship schedules subject to change.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
