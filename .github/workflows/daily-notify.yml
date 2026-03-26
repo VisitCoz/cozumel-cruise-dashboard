@@ -2,8 +2,9 @@ name: Daily Cruise Alert
 
 on:
   schedule:
-    # Every day at 5:30 AM Cozumel time (11:30 UTC) — before first ships arrive
-    - cron: '30 11 * * *'
+    # Every day at 7:00 PM Cozumel time (00:00 UTC next day)
+    # Cozumel = UTC-5 year-round (Quintana Roo time)
+    - cron: '0 0 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -19,15 +20,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Send today's schedule to Telegram
+      - name: Send tomorrow's schedule to Telegram
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
-        run: node notify-telegram.js
+        run: node notify-telegram.js --tomorrow
 
-      - name: Send weekly summary on Mondays
-        if: contains('1', github.event.schedule) || github.event_name == 'workflow_dispatch'
+      - name: Send weekly summary on Sundays
+        if: ${{ github.event.schedule == '0 0 * * *' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
-        run: node notify-telegram.js --week
+        run: |
+          DOW=$(date -u +%u)
+          if [ "$DOW" = "1" ]; then
+            node notify-telegram.js --week
+          fi
