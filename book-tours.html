@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tierra Maya Tours — Cozumel Shore Excursions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --green-50: #f0fdf4; --green-100: #dcfce7; --green-500: #22c55e;
+            --green-600: #16a34a; --green-700: #15803d; --green-800: #166534;
+            --blue-50: #eff6ff; --blue-500: #3b82f6; --blue-600: #2563eb;
+            --orange-50: #fff7ed; --orange-500: #f97316; --orange-600: #ea580c;
+            --yellow-50: #fefce8; --yellow-500: #eab308;
+            --gray-50: #f9fafb; --gray-100: #f3f4f6; --gray-200: #e5e7eb;
+            --gray-300: #d1d5db; --gray-400: #9ca3af; --gray-500: #6b7280;
+            --gray-600: #4b5563; --gray-700: #374151; --gray-800: #1f2937;
+            --gray-900: #111827;
+            --radius: 12px;
+            --shadow: 0 1px 3px rgba(0,0,0,.1);
+            --shadow-md: 0 4px 12px rgba(0,0,0,.1);
+            --shadow-lg: 0 8px 25px rgba(0,0,0,.12);
+        }
+
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--gray-50);
+            color: var(--gray-800);
+            line-height: 1.5;
+        }
+
+        /* ── Hero Banner ─────────────────────── */
+        .hero {
+            background: linear-gradient(135deg, #0c4a6e 0%, #065f46 100%);
+            color: white;
+            padding: 2rem 1.5rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20"><text y="15" font-size="14" opacity="0.06">🌊</text></svg>') repeat;
+            opacity: 0.3;
+        }
+        .hero-content { position: relative; max-width: 800px; margin: 0 auto; }
+        .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
+        .hero p { font-size: 1.05rem; opacity: 0.85; }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 20px;
+            padding: 0.35rem 1rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 0.75rem;
+        }
+
+        /* ── Ship Arrival Banner ─────────────── */
+        .ship-banner {
+            max-width: 900px;
+            margin: -1.5rem auto 0;
+            padding: 0 1rem;
+            position: relative;
+            z-index: 2;
+        }
+        .ship-banner-inner {
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-lg);
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .ship-icon { font-size: 2.5rem; }
+        .ship-banner-info { flex: 1; min-width: 200px; }
+        .ship-banner-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--gray-400);
+            font-weight: 600;
+        }
+        .ship-banner-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--gray-900);
+        }
+        .ship-banner-detail {
+            font-size: 0.9rem;
+            color: var(--gray-500);
+        }
+        .ship-select-wrapper {
+            background: var(--gray-50);
+            border: 1px solid var(--gray-200);
+            border-radius: 8px;
+            padding: 0.5rem;
+        }
+        .ship-select {
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            color: var(--gray-700);
+            cursor: pointer;
+            padding: 0.25rem;
+        }
+
+        /* ── Section ─────────────────────────── */
+        .section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.25rem;
+        }
+        .section-subtitle {
+            font-size: 0.9rem;
+            color: var(--gray-400);
+            margin-bottom: 1.25rem;
+        }
+
+        /* ── Tour Cards ──────────────────────── */
+        .tour-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+            gap: 1.25rem;
+        }
+        .tour-card {
+            background: white;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .tour-card:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        .tour-image {
+            height: 160px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .tour-badge {
+            position: absolute;
+            top: 0.75rem;
+            left: 0.75rem;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .tour-badge.bestseller { background: var(--orange-600); }
+        .tour-badge.partner { background: var(--green-700); }
+        .tour-duration {
+            position: absolute;
+            bottom: 0.75rem;
+            right: 0.75rem;
+            background: rgba(0,0,0,0.6);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        .tour-content { padding: 1rem 1.25rem; }
+        .tour-name {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--gray-900);
+            margin-bottom: 0.25rem;
+        }
+        .tour-desc {
+            font-size: 0.85rem;
+            color: var(--gray-500);
+            margin-bottom: 0.75rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .tour-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--gray-100);
+        }
+        .tour-price {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--green-700);
+        }
+        .tour-price span {
+            font-size: 0.8rem;
+            font-weight: 400;
+            color: var(--gray-400);
+        }
+        .tour-rating {
+            font-size: 0.8rem;
+            color: var(--gray-500);
+        }
+        .tour-book-btn {
+            display: block;
+            width: 100%;
+            padding: 0.7rem;
+            background: var(--green-600);
+            color: white;
+            border: none;
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+        .tour-book-btn:hover { background: var(--green-700); }
+
+        /* ── Dock Info ────────────────────────── */
+        .dock-info {
+            background: var(--blue-50);
+            border: 1px solid #bfdbfe;
+            border-radius: var(--radius);
+            padding: 1rem 1.25rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .dock-info-icon { font-size: 1.5rem; }
+        .dock-info-text { flex: 1; min-width: 200px; }
+        .dock-info-title { font-weight: 700; font-size: 0.95rem; color: var(--gray-800); }
+        .dock-info-detail { font-size: 0.85rem; color: var(--gray-500); }
+
+        /* ── Ship List for Day ────────────────── */
+        .ships-today {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1.5rem;
+        }
+        .ship-chip {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.4rem 0.85rem;
+            background: white;
+            border: 1px solid var(--gray-200);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--gray-600);
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .ship-chip:hover, .ship-chip.active {
+            background: var(--green-50);
+            border-color: var(--green-500);
+            color: var(--green-800);
+        }
+        .ship-chip.vip {
+            border-color: #fbbf24;
+            background: var(--yellow-50);
+        }
+        .ship-chip.vip:hover, .ship-chip.vip.active {
+            background: #fef3c7;
+            border-color: var(--yellow-500);
+        }
+        .ship-pax {
+            font-size: 0.7rem;
+            color: var(--gray-400);
+        }
+
+        /* ── WhatsApp CTA ────────────────────── */
+        .whatsapp-cta {
+            background: linear-gradient(135deg, #25d366 0%, #128c7e 100%);
+            border-radius: var(--radius);
+            padding: 1.5rem;
+            text-align: center;
+            color: white;
+            margin-top: 2rem;
+        }
+        .whatsapp-cta h3 { font-size: 1.1rem; margin-bottom: 0.35rem; }
+        .whatsapp-cta p { font-size: 0.9rem; opacity: 0.9; margin-bottom: 1rem; }
+        .whatsapp-btn {
+            display: inline-block;
+            background: white;
+            color: #128c7e;
+            padding: 0.65rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: transform 0.15s;
+        }
+        .whatsapp-btn:hover { transform: scale(1.05); }
+
+        /* ── Footer ──────────────────────────── */
+        .footer {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1.5rem 1rem;
+            text-align: center;
+            border-top: 1px solid var(--gray-200);
+            font-size: 0.8rem;
+            color: var(--gray-400);
+        }
+        .footer a { color: var(--green-600); text-decoration: none; }
+
+        /* ── Responsive ──────────────────────── */
+        @media (max-width: 640px) {
+            .hero h1 { font-size: 1.4rem; }
+            .hero p { font-size: 0.9rem; }
+            .ship-banner-inner { flex-direction: column; text-align: center; }
+            .tour-grid { grid-template-columns: 1fr; }
+            .ship-banner-title { font-size: 1.1rem; }
+            .dock-info { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Tierra Maya Tours</h1>
+            <p>Authentic Cozumel shore excursions for cruise passengers</p>
+            <div class="hero-badge" id="heroBadge">Loading ships...</div>
+        </div>
+    </header>
+
+    <!-- Ship Arrival Banner -->
+    <div class="ship-banner">
+        <div class="ship-banner-inner">
+            <div class="ship-icon">🚢</div>
+            <div class="ship-banner-info">
+                <div class="ship-banner-label" id="bannerLabel">ARRIVING TOMORROW</div>
+                <div class="ship-banner-title" id="bannerTitle">Loading...</div>
+                <div class="ship-banner-detail" id="bannerDetail"></div>
+            </div>
+            <div class="ship-select-wrapper">
+                <select class="ship-select" id="daySelect">
+                    <option value="0">Today</option>
+                    <option value="1" selected>Tomorrow</option>
+                    <option value="2">In 2 days</option>
+                    <option value="3">In 3 days</option>
+                    <option value="4">In 4 days</option>
+                    <option value="5">In 5 days</option>
+                    <option value="6">In 6 days</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ships in Port -->
+    <section class="section">
+        <div class="ships-today" id="shipChips"></div>
+
+        <!-- Dock Pickup Info -->
+        <div class="dock-info" id="dockInfo">
+            <div class="dock-info-icon">📍</div>
+            <div class="dock-info-text">
+                <div class="dock-info-title" id="dockTitle">Select a ship above</div>
+                <div class="dock-info-detail" id="dockDetail">We'll show you exactly where to meet your guide</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours -->
+    <section class="section">
+        <h2 class="section-title">Our Tours</h2>
+        <p class="section-subtitle" id="tourSubtitle">Perfect for cruise passengers — guaranteed back to ship on time</p>
+
+        <div class="tour-grid" id="tourGrid"></div>
+
+        <!-- WhatsApp CTA -->
+        <div class="whatsapp-cta">
+            <h3>Prefer to book via WhatsApp?</h3>
+            <p>Message us and we'll set everything up for you</p>
+            <a href="#" class="whatsapp-btn" id="whatsappBtn">💬 Chat with us on WhatsApp</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Ship schedule data from <a href="https://servicios.apiqroo.com.mx/programacion/" target="_blank">APIQROO Port Authority</a></p>
+        <p style="margin-top:0.5rem">Tierra Maya Tours — Cozumel, Mexico</p>
+    </footer>
+
+    <script>
+    // ── Tour Data ─────────────────────────────
+    const TOURS = [
+        {
+            name: 'Mayan Ruins & Beach Combo',
+            desc: 'Visit the ancient San Gervasio ruins, then relax at a beautiful beach club with lunch included.',
+            price: 79,
+            duration: '5 hours',
+            rating: 4.9,
+            reviews: 342,
+            badge: 'bestseller',
+            image: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            meetDocks: ['Punta Langosta', 'SSA Mexico', 'Puerta Maya'],
+        },
+        {
+            name: 'Cozumel Snorkel Adventure',
+            desc: 'Snorkel the world-famous Palancar and Colombia reefs with expert guides. Equipment included.',
+            price: 59,
+            duration: '3.5 hours',
+            rating: 4.8,
+            reviews: 528,
+            badge: 'bestseller',
+            image: 'linear-gradient(135deg, #11998e 0%, #38ef7d 100%)',
+            meetDocks: ['Punta Langosta', 'SSA Mexico', 'Puerta Maya'],
+        },
+        {
+            name: 'Island Jeep Exploration',
+            desc: 'Drive your own Jeep around the island. Includes snorkeling stop, tequila tasting, and lunch.',
+            price: 89,
+            duration: '4 hours',
+            rating: 4.9,
+            reviews: 217,
+            badge: null,
+            image: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+            meetDocks: ['Punta Langosta', 'SSA Mexico', 'Puerta Maya'],
+        },
+        {
+            name: 'Private Catamaran Sail',
+            desc: 'Sail the turquoise Caribbean on a private catamaran. Snorkel, swim, open bar, fresh ceviche.',
+            price: 149,
+            duration: '4 hours',
+            rating: 5.0,
+            reviews: 89,
+            badge: 'partner',
+            image: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+            meetDocks: ['Punta Langosta', 'SSA Mexico', 'Puerta Maya'],
+        },
+        {
+            name: 'Cozumel Food & Tequila Tour',
+            desc: 'Taste authentic Mexican cuisine across 5 local spots. Tacos, ceviche, mole, and premium tequila.',
+            price: 69,
+            duration: '3 hours',
+            rating: 4.8,
+            reviews: 156,
+            badge: null,
+            image: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
+            meetDocks: ['Punta Langosta'],
+        },
+        {
+            name: 'VIP Beach Day Pass',
+            desc: 'All-inclusive beach club with pool, kayaks, snorkel gear, lunch, and unlimited drinks.',
+            price: 55,
+            duration: '6 hours',
+            rating: 4.7,
+            reviews: 403,
+            badge: null,
+            image: 'linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%)',
+            meetDocks: ['Punta Langosta', 'SSA Mexico', 'Puerta Maya'],
+        },
+    ];
+
+    // ── Dock meeting points ───────────────────
+    const DOCK_MEETPOINTS = {
+        'Punta Langosta': {
+            text: 'Exit the terminal, turn right. Our guide with the green Tierra Maya flag will be at the fountain plaza, 2 min walk.',
+            walkTime: '2 min walk from ship',
+        },
+        'SSA Mexico': {
+            text: 'Follow signs to "Downtown Shuttle". Our guide meets you at the taxi stand exit with a green flag.',
+            walkTime: '5 min walk from ship',
+        },
+        'Puerta Maya': {
+            text: 'Walk through the shopping area toward the main exit. Our guide will be at the parking lot entrance with a green flag.',
+            walkTime: '5 min walk from ship',
+        },
+    };
+
+    // ── Ship capacities ───────────────────────
+    const CAPS = {
+        'ICON OF THE SEAS': 7600, 'STAR OF THE SEAS': 7600,
+        'HARMONY OF THE SEAS': 6687, 'ALLURE OF THE SEAS': 6780,
+        'EXPLORER OF THE SEAS': 3840, 'INDEPENDENCE OF THE SEAS': 4370,
+        'MARINER OF THE SEAS': 3807, 'RHAPSODY OF THE SEAS': 2435,
+        'ENCHANTMENT OF THE SEAS': 2446, 'GRANDEUR OF THE SEAS': 2446,
+        'MSC WORLD AMERICA': 6774, 'MSC SEASCAPE': 5877,
+        'MSC GRANDIOSA': 6334, 'MSC. DIVINA': 4345,
+        'CARNIVAL CELEBRATION': 5374, 'CARNIVAL JUBILEE': 5400,
+        'MARDI GRAS': 5282, 'CARNIVAL VENEZIA': 4072,
+        'CARNIVAL HORIZON': 3960, 'CARNIVAL BREEZE': 3690,
+        'CARNIVAL VALOR': 2984, 'CARNIVAL LIBERTY': 2984,
+        'CARNIVAL LEGEND': 2124, 'CARNIVAL MIRACLE': 2124,
+        'CARNIVAL PARADISE': 2052, 'NORWEGIAN VIVA': 3998,
+        'NORWEGIAN PRIMA': 3215, 'NORWEGIAN ENCORE': 3998,
+        'NORWEGIAN ESCAPE': 4266, 'NORWEGIAN DAWN': 2340,
+        'NORWEGIAN PEARL': 2394, 'NORWEGIAN JEWEL': 2376,
+        'DISNEY MAGIC': 2713, 'DISNEY TREASURE': 4000,
+        'DISNEY DESTINY': 4000, 'CELEBRITY XCEL': 3250,
+        'CELEBRITY ECLIPSE': 2850, 'CELEBRITY SILHOUETTE': 2886,
+        'CELEBRITY CONSTELLATION': 2170, 'CELEBRITY SUMMIT': 2158,
+        'CELEBRITY APEX': 3260, 'REGAL PRINCESS': 3560,
+        'STAR PRINCESS': 4300, 'SUN PRINCESS': 4300,
+        'MAJESTIC PRINCESS': 3560, 'EURODAM': 2104,
+        'KONINGSDAM': 2650, 'NIEUW STATENDAM': 2666,
+        'SCARLET LADY': 2770, 'RESILIENT LADY': 2770,
+        'QUEEN ELIZABETH': 2081, 'INSIGNIA': 684,
+        'MARGARITAVILLE AT SEA ISLANDER': 2350,
+        'MEIN SCHIFF 1': 2894, 'SEVEN SEAS GRANDEUR': 750,
+    };
+
+    function cleanName(s) { return s.replace(/^M\/[SV]\s+/i,'').replace(/^MS\s+/i,'').trim(); }
+    function getCap(s) { return CAPS[cleanName(s)] || CAPS[s] || null; }
+    function isVIP(s) { return /CELEBRITY|DISNEY/i.test(s); }
+
+    let scheduleData = [];
+    let selectedDock = null;
+
+    // ── Load schedule ─────────────────────────
+    async function loadSchedule() {
+        try {
+            const res = await fetch('schedule-data.json');
+            const data = await res.json();
+            scheduleData = data.schedule;
+        } catch(e) {
+            console.error('Could not load schedule:', e);
+        }
+    }
+
+    function getShips(offset) {
+        const d = new Date();
+        d.setDate(d.getDate() + offset);
+        const dateStr = d.toISOString().split('T')[0];
+        return scheduleData.filter(s => s.arrival === dateStr);
+    }
+
+    function formatDay(offset) {
+        const d = new Date();
+        d.setDate(d.getDate() + offset);
+        return d.toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+    }
+
+    // ── Render ────────────────────────────────
+    function render(offset) {
+        const ships = getShips(offset);
+        const totalPax = ships.reduce((sum, s) => sum + (getCap(s.ship) || 0), 0);
+        const dayLabel = offset === 0 ? 'TODAY' : offset === 1 ? 'TOMORROW' : formatDay(offset).toUpperCase();
+
+        // Hero badge
+        document.getElementById('heroBadge').textContent =
+            ships.length > 0
+                ? `🚢 ${ships.length} ships ${offset === 0 ? 'in port today' : 'arriving ' + (offset === 1 ? 'tomorrow' : formatDay(offset))} — ~${totalPax.toLocaleString()} passengers`
+                : `No ships ${offset === 0 ? 'today' : formatDay(offset)}`;
+
+        // Banner
+        document.getElementById('bannerLabel').textContent =
+            offset === 0 ? 'IN PORT TODAY' : 'ARRIVING ' + dayLabel;
+
+        if (ships.length === 0) {
+            document.getElementById('bannerTitle').textContent = 'No ships scheduled';
+            document.getElementById('bannerDetail').textContent = formatDay(offset);
+            document.getElementById('shipChips').innerHTML = '';
+            return;
+        }
+
+        document.getElementById('bannerTitle').textContent =
+            `${ships.length} cruise ships — ~${totalPax.toLocaleString()} passengers`;
+        document.getElementById('bannerDetail').textContent = formatDay(offset);
+
+        // Ship chips
+        const chipsHTML = ships.map(s => {
+            const name = cleanName(s.ship);
+            const cap = getCap(s.ship);
+            const vip = isVIP(s.ship) ? ' vip' : '';
+            const star = isVIP(s.ship) ? '⭐ ' : '';
+            return `<div class="ship-chip${vip}" data-dock="${s.terminal}" onclick="selectShip(this, '${s.terminal}')">
+                ${star}${name}
+                ${cap ? `<span class="ship-pax">${(cap/1000).toFixed(1)}k</span>` : ''}
+            </div>`;
+        }).join('');
+        document.getElementById('shipChips').innerHTML = chipsHTML;
+
+        // Auto-select first ship
+        const firstChip = document.querySelector('.ship-chip');
+        if (firstChip) selectShip(firstChip, ships[0].terminal);
+
+        renderTours(ships);
+    }
+
+    function selectShip(el, dock) {
+        document.querySelectorAll('.ship-chip').forEach(c => c.classList.remove('active'));
+        el.classList.add('active');
+        selectedDock = dock;
+
+        const info = DOCK_MEETPOINTS[dock] || { text: 'Contact us for meeting point details.', walkTime: '' };
+        document.getElementById('dockTitle').textContent = `📍 Meeting Point: ${dock}`;
+        document.getElementById('dockDetail').textContent = `${info.text} (${info.walkTime})`;
+    }
+
+    function renderTours(ships) {
+        const grid = document.getElementById('tourGrid');
+        const hasCelebrity = ships.some(s => /CELEBRITY/i.test(s.ship));
+        const hasDisney = ships.some(s => /DISNEY/i.test(s.ship));
+
+        grid.innerHTML = TOURS.map(tour => {
+            let badge = '';
+            if (tour.badge === 'bestseller') badge = '<div class="tour-badge bestseller">Bestseller</div>';
+            else if (tour.badge === 'partner') badge = '<div class="tour-badge partner">VIP Experience</div>';
+
+            const stars = '★'.repeat(Math.floor(tour.rating)) + (tour.rating % 1 >= 0.5 ? '½' : '');
+
+            return `
+                <div class="tour-card">
+                    <div class="tour-image" style="background:${tour.image}">
+                        ${badge}
+                        <div class="tour-duration">⏱ ${tour.duration}</div>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-name">${tour.name}</div>
+                        <div class="tour-desc">${tour.desc}</div>
+                        <div class="tour-meta">
+                            <div class="tour-price">$${tour.price} <span>/ person</span></div>
+                            <div class="tour-rating">${stars} ${tour.rating} (${tour.reviews})</div>
+                        </div>
+                    </div>
+                    <button class="tour-book-btn" onclick="bookTour('${tour.name}')">Book Now — Guaranteed Dock Return</button>
+                </div>
+            `;
+        }).join('');
+    }
+
+    function bookTour(tourName) {
+        const offset = parseInt(document.getElementById('daySelect').value);
+        const dateStr = formatDay(offset);
+        // In production, this would go to your booking system
+        // For now, open WhatsApp with pre-filled message
+        const msg = encodeURIComponent(
+            `Hi! I'd like to book the "${tourName}" tour for ${dateStr}. We're arriving on a cruise ship.`
+        );
+        window.open(`https://wa.me/529871234567?text=${msg}`, '_blank');
+    }
+
+    // ── Day selector ──────────────────────────
+    document.getElementById('daySelect').addEventListener('change', function() {
+        render(parseInt(this.value));
+    });
+
+    // ── Init ──────────────────────────────────
+    loadSchedule().then(() => {
+        // Update day select labels with actual dates
+        const select = document.getElementById('daySelect');
+        for (let i = 0; i < select.options.length; i++) {
+            const d = new Date();
+            d.setDate(d.getDate() + i);
+            const ships = getShips(i);
+            const dayName = d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+            select.options[i].textContent = `${i === 0 ? 'Today' : i === 1 ? 'Tomorrow' : dayName} (${ships.length} ships)`;
+        }
+        render(1); // Default to tomorrow
+    });
+    </script>
+</body>
+</html>
