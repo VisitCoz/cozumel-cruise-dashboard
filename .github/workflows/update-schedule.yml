@@ -2,7 +2,8 @@ name: Update Cruise Schedule
 
 on:
   schedule:
-    - cron: '0 11 * * 0'
+    # Runs daily at 5:00 AM Cozumel time (11:00 UTC)
+    - cron: '0 11 * * *'
   workflow_dispatch:
 
 permissions:
@@ -28,13 +29,6 @@ jobs:
         run: |
           NEXT_MONTH=$(date -d "next month" +%Y' '%m | sed 's/ 0/ /')
           node scrape-schedule.js $NEXT_MONTH
-
-      - name: Send Telegram notifications
-        if: env.TELEGRAM_BOT_TOKEN != ''
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_IDS: ${{ secrets.TELEGRAM_CHAT_IDS }}
-        run: node notify-telegram.js
 
       - name: Commit and push if changed
         run: |
