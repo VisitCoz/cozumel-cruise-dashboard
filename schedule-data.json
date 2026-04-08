@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-07T11:54:31.213Z",
+  "lastUpdated": "2026-04-08T11:55:29.283Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -1647,7 +1647,7 @@
       "eta": "05:30",
       "departure": "2026-04-07",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY CONSTELLATION",
@@ -1656,7 +1656,7 @@
       "eta": "06:00",
       "departure": "2026-04-07",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SCARLET LADY",
@@ -1665,7 +1665,7 @@
       "eta": "06:30",
       "departure": "2026-04-07",
       "etd": "20:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -1674,7 +1674,7 @@
       "eta": "06:30",
       "departure": "2026-04-07",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
@@ -1683,7 +1683,7 @@
       "eta": "08:30",
       "departure": "2026-04-07",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V DISNEY MAGIC",
@@ -1692,7 +1692,7 @@
       "eta": "10:00",
       "departure": "2026-04-07",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
