@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-08T11:55:29.283Z",
+  "lastUpdated": "2026-04-09T11:55:12.587Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -1470,7 +1470,7 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/S FREEDOM OF THE SEAS",
+      "ship": "M/V CELEBRITY SUMMIT",
       "terminal": "SSA Mexico",
       "arrival": "2026-04-02",
       "eta": "06:00",
@@ -1479,7 +1479,7 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/V CELEBRITY SUMMIT",
+      "ship": "M/S FREEDOM OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-04-02",
       "eta": "06:00",
@@ -1701,7 +1701,7 @@
       "eta": "07:00",
       "departure": "2026-04-08",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC GRANDIOSA",
@@ -1710,7 +1710,7 @@
       "eta": "07:30",
       "departure": "2026-04-08",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARDI GRAS",
@@ -1719,7 +1719,7 @@
       "eta": "08:30",
       "departure": "2026-04-08",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -1728,7 +1728,7 @@
       "eta": "08:30",
       "departure": "2026-04-08",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY ECLIPSE",
@@ -1737,7 +1737,7 @@
       "eta": "09:00",
       "departure": "2026-04-08",
       "etd": "20:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -1746,15 +1746,6 @@
       "eta": "06:15",
       "departure": "2026-04-09",
       "etd": "17:45",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/S NORWEGIAN ENCORE",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-04-09",
-      "eta": "06:30",
-      "departure": "2026-04-09",
-      "etd": "17:00",
       "status": "Scheduled"
     },
     {
@@ -1773,6 +1764,15 @@
       "eta": "07:00",
       "departure": "2026-04-09",
       "etd": "18:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S NORWEGIAN ENCORE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-09",
+      "eta": "08:15",
+      "departure": "2026-04-09",
+      "etd": "18:30",
       "status": "Scheduled"
     },
     {
