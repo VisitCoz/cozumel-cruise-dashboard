@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-10T11:49:48.039Z",
+  "lastUpdated": "2026-04-11T11:30:24.277Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -1767,6 +1767,15 @@
       "status": "Arrived"
     },
     {
+      "ship": "M/S GRANDEUR OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-09",
+      "eta": "07:45",
+      "departure": "2026-04-09",
+      "etd": "19:00",
+      "status": "Arrived"
+    },
+    {
       "ship": "M/S NORWEGIAN ENCORE",
       "terminal": "Puerta Maya",
       "arrival": "2026-04-09",
@@ -1776,22 +1785,13 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/S GRANDEUR OF THE SEAS",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-04-09",
-      "eta": "09:00",
-      "departure": "2026-04-09",
-      "etd": "19:00",
-      "status": "Arrived"
-    },
-    {
       "ship": "M/S ALLURE OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-04-10",
       "eta": "06:00",
       "departure": "2026-04-10",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -1800,7 +1800,7 @@
       "eta": "06:30",
       "departure": "2026-04-10",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -1809,7 +1809,7 @@
       "eta": "07:30",
       "departure": "2026-04-10",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -1818,7 +1818,7 @@
       "eta": "07:30",
       "departure": "2026-04-10",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL DREAM",
@@ -1827,7 +1827,7 @@
       "eta": "08:30",
       "departure": "2026-04-10",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
