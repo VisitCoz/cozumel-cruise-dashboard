@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-14T11:56:54.667Z",
+  "lastUpdated": "2026-04-15T11:55:56.743Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -1917,7 +1917,7 @@
       "eta": "06:00",
       "departure": "2026-04-14",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -1926,7 +1926,7 @@
       "eta": "06:15",
       "departure": "2026-04-14",
       "etd": "17:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -1935,7 +1935,7 @@
       "eta": "06:30",
       "departure": "2026-04-14",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL CELEBRATION",
@@ -1944,7 +1944,7 @@
       "eta": "07:30",
       "departure": "2026-04-14",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY XCEL",
