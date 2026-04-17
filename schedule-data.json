@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-16T11:58:36.734Z",
+  "lastUpdated": "2026-04-17T11:52:36.916Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -1998,7 +1998,7 @@
       "eta": "06:00",
       "departure": "2026-04-16",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -2007,7 +2007,7 @@
       "eta": "06:15",
       "departure": "2026-04-16",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S INSIGNIA",
@@ -2016,7 +2016,7 @@
       "eta": "06:30",
       "departure": "2026-04-16",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -2025,7 +2025,7 @@
       "eta": "06:30",
       "departure": "2026-04-16",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL DREAM",
@@ -2034,7 +2034,7 @@
       "eta": "08:30",
       "departure": "2026-04-16",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY SILHOUETTE",
@@ -2043,7 +2043,7 @@
       "eta": "10:00",
       "departure": "2026-04-16",
       "etd": "21:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S ALLURE OF THE SEAS",
@@ -2052,15 +2052,6 @@
       "eta": "06:00",
       "departure": "2026-04-17",
       "etd": "17:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/V CARNIVAL LIBERTY",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-04-17",
-      "eta": "06:30",
-      "departure": "2026-04-17",
-      "etd": "16:00",
       "status": "Scheduled"
     },
     {
@@ -2079,6 +2070,15 @@
       "eta": "07:45",
       "departure": "2026-04-17",
       "etd": "17:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/V CARNIVAL LIBERTY",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-17",
+      "eta": "08:30",
+      "departure": "2026-04-17",
+      "etd": "18:00",
       "status": "Scheduled"
     },
     {
@@ -2115,6 +2115,204 @@
       "eta": "08:30",
       "departure": "2026-04-18",
       "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S EXPLORER OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-20",
+      "eta": "05:00",
+      "departure": "2026-04-20",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S DISNEY TREASURE",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-20",
+      "eta": "06:30",
+      "departure": "2026-04-20",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S REGAL PRINCESS",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-20",
+      "eta": "06:30",
+      "departure": "2026-04-20",
+      "etd": "16:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL VALOR",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-20",
+      "eta": "07:30",
+      "departure": "2026-04-20",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "MARINER OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-21",
+      "eta": "06:15",
+      "departure": "2026-04-21",
+      "etd": "16:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S NORWEGIAN ESCAPE",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-21",
+      "eta": "06:30",
+      "departure": "2026-04-21",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S GRANDEUR OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-21",
+      "eta": "07:00",
+      "departure": "2026-04-21",
+      "etd": "18:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "ICON OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-22",
+      "eta": "07:00",
+      "departure": "2026-04-22",
+      "etd": "18:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/V MSC SEASHORE",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-22",
+      "eta": "07:30",
+      "departure": "2026-04-22",
+      "etd": "19:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL BREEZE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-22",
+      "eta": "08:30",
+      "departure": "2026-04-22",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/V CELEBRITY ECLIPSE",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-22",
+      "eta": "09:00",
+      "departure": "2026-04-22",
+      "etd": "20:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "ENCHANTMENT OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-23",
+      "eta": "06:15",
+      "departure": "2026-04-23",
+      "etd": "17:45",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL BREEZE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-23",
+      "eta": "06:30",
+      "departure": "2026-04-23",
+      "etd": "16:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL HORIZON",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-23",
+      "eta": "10:00",
+      "departure": "2026-04-23",
+      "etd": "18:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S ALLURE OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-24",
+      "eta": "06:00",
+      "departure": "2026-04-24",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/V CARNIVAL LIBERTY",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-24",
+      "eta": "06:30",
+      "departure": "2026-04-24",
+      "etd": "16:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S MSC SEASCAPE",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-24",
+      "eta": "07:30",
+      "departure": "2026-04-24",
+      "etd": "16:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL PARADISE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-25",
+      "eta": "05:30",
+      "departure": "2026-04-25",
+      "etd": "15:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "MARINER OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-25",
+      "eta": "06:15",
+      "departure": "2026-04-25",
+      "etd": "16:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S CARNIVAL VALOR",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-25",
+      "eta": "07:30",
+      "departure": "2026-04-25",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "RADIANCE OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-04-26",
+      "eta": "06:15",
+      "departure": "2026-04-26",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S GRANDEUR OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-26",
+      "eta": "07:00",
+      "departure": "2026-04-26",
+      "etd": "18:00",
       "status": "Scheduled"
     }
   ]
