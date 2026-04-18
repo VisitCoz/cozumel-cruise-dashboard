@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-17T11:52:36.916Z",
+  "lastUpdated": "2026-04-18T11:34:52.958Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2052,7 +2052,7 @@
       "eta": "06:00",
       "departure": "2026-04-17",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -2061,7 +2061,7 @@
       "eta": "07:30",
       "departure": "2026-04-17",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -2070,7 +2070,7 @@
       "eta": "07:45",
       "departure": "2026-04-17",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -2079,7 +2079,7 @@
       "eta": "08:30",
       "departure": "2026-04-17",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S INDEPENDENCE OF THE SEAS",
@@ -2088,7 +2088,7 @@
       "eta": "09:00",
       "departure": "2026-04-17",
       "etd": "20:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
