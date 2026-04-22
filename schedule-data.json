@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-21T11:59:13.538Z",
+  "lastUpdated": "2026-04-22T11:59:27.156Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2160,7 +2160,7 @@
       "eta": "06:15",
       "departure": "2026-04-21",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S GRANDEUR OF THE SEAS",
@@ -2169,7 +2169,7 @@
       "eta": "06:15",
       "departure": "2026-04-21",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -2178,7 +2178,7 @@
       "eta": "06:30",
       "departure": "2026-04-21",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
