@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-22T11:59:27.156Z",
+  "lastUpdated": "2026-04-23T11:58:43.652Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2187,7 +2187,7 @@
       "eta": "07:00",
       "departure": "2026-04-22",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -2196,7 +2196,7 @@
       "eta": "07:30",
       "departure": "2026-04-22",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2205,7 +2205,7 @@
       "eta": "08:30",
       "departure": "2026-04-22",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY ECLIPSE",
@@ -2214,7 +2214,7 @@
       "eta": "09:00",
       "departure": "2026-04-22",
       "etd": "20:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
