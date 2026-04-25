@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-24T11:57:08.964Z",
+  "lastUpdated": "2026-04-25T11:38:30.009Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2250,7 +2250,7 @@
       "eta": "06:00",
       "departure": "2026-04-24",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -2259,7 +2259,7 @@
       "eta": "06:30",
       "departure": "2026-04-24",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -2268,7 +2268,7 @@
       "eta": "07:30",
       "departure": "2026-04-24",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
@@ -2415,21 +2415,21 @@
       "status": "Scheduled"
     },
     {
-      "ship": "M/S FREEDOM OF THE SEAS",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-04-30",
-      "eta": "06:00",
-      "departure": "2026-04-30",
-      "etd": "18:00",
-      "status": "Scheduled"
-    },
-    {
       "ship": "MARINER OF THE SEAS",
       "terminal": "Punta Langosta",
       "arrival": "2026-04-30",
       "eta": "06:15",
       "departure": "2026-04-30",
       "etd": "16:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S FREEDOM OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-04-30",
+      "eta": "06:15",
+      "departure": "2026-04-30",
+      "etd": "18:00",
       "status": "Scheduled"
     },
     {
