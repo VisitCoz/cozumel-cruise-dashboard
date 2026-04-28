@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-27T12:19:50.715Z",
+  "lastUpdated": "2026-04-28T12:23:38.723Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2226,7 +2226,7 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/S CARNIVAL BREEZE",
+      "ship": "M/S CARNIVAL JUBILEE",
       "terminal": "Puerta Maya",
       "arrival": "2026-04-23",
       "eta": "06:30",
@@ -2277,7 +2277,7 @@
       "eta": "05:30",
       "departure": "2026-04-25",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -2286,7 +2286,7 @@
       "eta": "06:15",
       "departure": "2026-04-25",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -2295,7 +2295,7 @@
       "eta": "07:30",
       "departure": "2026-04-25",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -2304,7 +2304,7 @@
       "eta": "06:15",
       "departure": "2026-04-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S GRANDEUR OF THE SEAS",
@@ -2313,7 +2313,7 @@
       "eta": "07:00",
       "departure": "2026-04-26",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -2322,7 +2322,7 @@
       "eta": "06:15",
       "departure": "2026-04-27",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY DESTINY",
@@ -2331,7 +2331,7 @@
       "eta": "06:30",
       "departure": "2026-04-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CARNIVAL LEGEND",
@@ -2340,7 +2340,7 @@
       "eta": "07:30",
       "departure": "2026-04-27",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2349,7 +2349,7 @@
       "eta": "08:30",
       "departure": "2026-04-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
