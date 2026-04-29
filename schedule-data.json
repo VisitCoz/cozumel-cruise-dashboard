@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-04-28T12:23:38.723Z",
+  "lastUpdated": "2026-04-29T12:17:28.943Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2358,7 +2358,7 @@
       "eta": "05:15",
       "departure": "2026-04-28",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -2367,6 +2367,15 @@
       "eta": "06:30",
       "departure": "2026-04-28",
       "etd": "17:00",
+      "status": "Arrived"
+    },
+    {
+      "ship": "M/S CARNIVAL PARADISE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-04-29",
+      "eta": "05:42",
+      "departure": "2026-04-29",
+      "etd": "15:00",
       "status": "Scheduled"
     },
     {
@@ -2376,15 +2385,6 @@
       "eta": "06:15",
       "departure": "2026-04-29",
       "etd": "18:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/S CARNIVAL PARADISE",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-04-29",
-      "eta": "07:30",
-      "departure": "2026-04-29",
-      "etd": "16:00",
       "status": "Scheduled"
     },
     {
