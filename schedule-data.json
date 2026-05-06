@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-05T12:02:16.599Z",
+  "lastUpdated": "2026-05-06T12:27:06.295Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2466,7 +2466,7 @@
       "eta": "07:30",
       "departure": "2026-05-01",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -2475,7 +2475,7 @@
       "eta": "07:45",
       "departure": "2026-05-01",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -2484,7 +2484,7 @@
       "eta": "06:00",
       "departure": "2026-05-02",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -2493,7 +2493,7 @@
       "eta": "06:15",
       "departure": "2026-05-02",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S INSIGNIA",
@@ -2502,7 +2502,7 @@
       "eta": "06:30",
       "departure": "2026-05-02",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2511,7 +2511,7 @@
       "eta": "08:30",
       "departure": "2026-05-02",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -2520,7 +2520,7 @@
       "eta": "06:30",
       "departure": "2026-05-04",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S REGAL PRINCESS",
@@ -2529,7 +2529,7 @@
       "eta": "06:30",
       "departure": "2026-05-04",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -2538,7 +2538,7 @@
       "eta": "06:30",
       "departure": "2026-05-04",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -2547,7 +2547,7 @@
       "eta": "07:30",
       "departure": "2026-05-04",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -2556,7 +2556,7 @@
       "eta": "06:15",
       "departure": "2026-05-05",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -2565,7 +2565,7 @@
       "eta": "06:30",
       "departure": "2026-05-05",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA PARADISE",
@@ -2574,7 +2574,7 @@
       "eta": "07:00",
       "departure": "2026-05-05",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -2583,7 +2583,7 @@
       "eta": "07:30",
       "departure": "2026-05-05",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
