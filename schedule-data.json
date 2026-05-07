@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-06T12:27:06.295Z",
+  "lastUpdated": "2026-05-07T12:28:49.507Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2592,7 +2592,7 @@
       "eta": "07:30",
       "departure": "2026-05-06",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2601,7 +2601,7 @@
       "eta": "08:30",
       "departure": "2026-05-06",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARDI GRAS",
@@ -2610,7 +2610,7 @@
       "eta": "08:30",
       "departure": "2026-05-06",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY BEYOND",
@@ -2619,7 +2619,7 @@
       "eta": "10:00",
       "departure": "2026-05-06",
       "etd": "20:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
