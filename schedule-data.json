@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-12T13:03:34.440Z",
+  "lastUpdated": "2026-05-13T13:10:55.692Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2682,7 +2682,7 @@
       "eta": "05:30",
       "departure": "2026-05-09",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -2691,7 +2691,7 @@
       "eta": "06:15",
       "departure": "2026-05-09",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -2700,7 +2700,7 @@
       "eta": "07:30",
       "departure": "2026-05-09",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -2709,7 +2709,7 @@
       "eta": "06:00",
       "departure": "2026-05-11",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY DESTINY",
@@ -2718,7 +2718,7 @@
       "eta": "06:30",
       "departure": "2026-05-11",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2727,7 +2727,7 @@
       "eta": "08:30",
       "departure": "2026-05-11",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -2735,8 +2735,8 @@
       "arrival": "2026-05-12",
       "eta": "06:15",
       "departure": "2026-05-12",
-      "etd": "18:00",
-      "status": "Scheduled"
+      "etd": "17:00",
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -2745,15 +2745,15 @@
       "eta": "06:30",
       "departure": "2026-05-12",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S FREEDOM OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-05-13",
-      "eta": "06:00",
+      "eta": "06:30",
       "departure": "2026-05-13",
-      "etd": "18:00",
+      "etd": "17:00",
       "status": "Scheduled"
     },
     {
@@ -2802,21 +2802,21 @@
       "status": "Scheduled"
     },
     {
+      "ship": "ENCHANTMENT OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-05-14",
+      "eta": "06:15",
+      "departure": "2026-05-14",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
       "ship": "M/S CARNIVAL JUBILEE",
       "terminal": "Puerta Maya",
       "arrival": "2026-05-14",
       "eta": "06:30",
       "departure": "2026-05-14",
       "etd": "16:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "ENCHANTMENT OF THE SEAS",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-05-14",
-      "eta": "08:15",
-      "departure": "2026-05-14",
-      "etd": "19:00",
       "status": "Scheduled"
     },
     {
