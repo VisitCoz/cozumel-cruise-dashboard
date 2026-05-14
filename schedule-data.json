@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-13T13:10:55.692Z",
+  "lastUpdated": "2026-05-14T12:24:21.146Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2754,7 +2754,7 @@
       "eta": "06:30",
       "departure": "2026-05-13",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -2763,7 +2763,7 @@
       "eta": "07:00",
       "departure": "2026-05-13",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -2772,7 +2772,7 @@
       "eta": "07:30",
       "departure": "2026-05-13",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -2781,7 +2781,7 @@
       "eta": "08:30",
       "departure": "2026-05-13",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S RESILIENT LADY",
@@ -2790,7 +2790,7 @@
       "eta": "08:30",
       "departure": "2026-05-13",
       "etd": "21:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -2823,7 +2823,7 @@
       "ship": "M/S CARNIVAL DREAM",
       "terminal": "Puerta Maya",
       "arrival": "2026-05-14",
-      "eta": "08:30",
+      "eta": "07:12",
       "departure": "2026-05-14",
       "etd": "17:00",
       "status": "Scheduled"
