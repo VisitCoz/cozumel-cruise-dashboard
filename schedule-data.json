@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-18T14:29:16.133Z",
+  "lastUpdated": "2026-05-19T13:54:30.837Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2825,7 +2825,7 @@
       "arrival": "2026-05-14",
       "eta": "10:45",
       "departure": "2026-05-14",
-      "etd": "17:00",
+      "etd": "19:00",
       "status": "Arrived"
     },
     {
@@ -2871,7 +2871,7 @@
       "eta": "06:00",
       "departure": "2026-05-16",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -2880,7 +2880,7 @@
       "eta": "06:15",
       "departure": "2026-05-16",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2889,7 +2889,7 @@
       "eta": "08:30",
       "departure": "2026-05-16",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -2898,7 +2898,7 @@
       "eta": "06:30",
       "departure": "2026-05-18",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S REGAL PRINCESS",
@@ -2907,7 +2907,7 @@
       "eta": "06:30",
       "departure": "2026-05-18",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -2916,7 +2916,7 @@
       "eta": "06:30",
       "departure": "2026-05-18",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -2925,7 +2925,7 @@
       "eta": "07:30",
       "departure": "2026-05-18",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
