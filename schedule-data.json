@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-19T13:54:30.837Z",
+  "lastUpdated": "2026-05-20T13:37:04.181Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2934,7 +2934,7 @@
       "eta": "06:15",
       "departure": "2026-05-19",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
@@ -2943,7 +2943,7 @@
       "eta": "07:15",
       "departure": "2026-05-19",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -2952,7 +2952,7 @@
       "eta": "07:30",
       "departure": "2026-05-19",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
@@ -2961,7 +2961,7 @@
       "eta": "07:30",
       "departure": "2026-05-19",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -2970,7 +2970,7 @@
       "eta": "06:00",
       "departure": "2026-05-20",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -2979,7 +2979,7 @@
       "eta": "07:30",
       "departure": "2026-05-20",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -2988,7 +2988,7 @@
       "eta": "08:30",
       "departure": "2026-05-20",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY BEYOND",
@@ -2997,7 +2997,7 @@
       "eta": "10:00",
       "departure": "2026-05-20",
       "etd": "20:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
