@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-20T13:37:04.181Z",
+  "lastUpdated": "2026-05-21T14:14:20.327Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -2775,21 +2775,21 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/V MSC WORLD AMERICA",
-      "terminal": "Punta Langosta",
-      "arrival": "2026-05-13",
-      "eta": "08:30",
-      "departure": "2026-05-13",
-      "etd": "19:00",
-      "status": "Arrived"
-    },
-    {
       "ship": "M/S RESILIENT LADY",
       "terminal": "Punta Langosta",
       "arrival": "2026-05-13",
       "eta": "08:30",
       "departure": "2026-05-13",
       "etd": "21:00",
+      "status": "Arrived"
+    },
+    {
+      "ship": "M/V MSC WORLD AMERICA",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-05-13",
+      "eta": "08:30",
+      "departure": "2026-05-13",
+      "etd": "19:00",
       "status": "Arrived"
     },
     {
@@ -3012,9 +3012,9 @@
       "ship": "ENCHANTMENT OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-05-21",
-      "eta": "08:15",
+      "eta": "07:15",
       "departure": "2026-05-21",
-      "etd": "19:00",
+      "etd": "18:00",
       "status": "Scheduled"
     },
     {
