@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-22T13:31:51.926Z",
+  "lastUpdated": "2026-05-23T11:59:30.988Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3018,22 +3018,31 @@
       "status": "Arrived"
     },
     {
+      "ship": "M/S NORWEGIAN ESCAPE",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-05-22",
+      "eta": "06:00",
+      "departure": "2026-05-22",
+      "etd": "16:30",
+      "status": "Arrived"
+    },
+    {
       "ship": "STAR OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-05-22",
       "eta": "06:15",
       "departure": "2026-05-22",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
-      "ship": "M/S NORWEGIAN ESCAPE",
-      "terminal": "SSA Mexico",
+      "ship": "M/S CARNIVAL CELEBRATION",
+      "terminal": "Puerta Maya",
       "arrival": "2026-05-22",
       "eta": "06:30",
       "departure": "2026-05-22",
-      "etd": "17:00",
-      "status": "Scheduled"
+      "etd": "16:00",
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -3042,16 +3051,7 @@
       "eta": "07:30",
       "departure": "2026-05-22",
       "etd": "16:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/S CARNIVAL CELEBRATION",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-05-22",
-      "eta": "08:30",
-      "departure": "2026-05-22",
-      "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
