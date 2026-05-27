@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-26T13:53:33.747Z",
+  "lastUpdated": "2026-05-27T14:26:38.101Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3105,7 +3105,7 @@
       "eta": "06:00",
       "departure": "2026-05-26",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -3113,8 +3113,8 @@
       "arrival": "2026-05-26",
       "eta": "06:15",
       "departure": "2026-05-26",
-      "etd": "18:00",
-      "status": "Scheduled"
+      "etd": "17:00",
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -3123,16 +3123,16 @@
       "eta": "06:30",
       "departure": "2026-05-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S FREEDOM OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-05-27",
-      "eta": "06:00",
+      "eta": "06:15",
       "departure": "2026-05-27",
-      "etd": "18:00",
-      "status": "Scheduled"
+      "etd": "17:00",
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -3141,7 +3141,7 @@
       "eta": "07:00",
       "departure": "2026-05-27",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -3150,7 +3150,7 @@
       "eta": "07:30",
       "departure": "2026-05-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -3159,7 +3159,7 @@
       "eta": "08:30",
       "departure": "2026-05-27",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
