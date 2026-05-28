@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-27T14:26:38.101Z",
+  "lastUpdated": "2026-05-28T14:37:03.603Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3171,6 +3171,15 @@
       "status": "Scheduled"
     },
     {
+      "ship": "ENCHANTMENT OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-05-28",
+      "eta": "06:15",
+      "departure": "2026-05-28",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
       "ship": "M/S CARNIVAL JUBILEE",
       "terminal": "Puerta Maya",
       "arrival": "2026-05-28",
@@ -3186,15 +3195,6 @@
       "eta": "06:30",
       "departure": "2026-05-28",
       "etd": "16:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "ENCHANTMENT OF THE SEAS",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-05-28",
-      "eta": "08:15",
-      "departure": "2026-05-28",
-      "etd": "19:00",
       "status": "Scheduled"
     },
     {
