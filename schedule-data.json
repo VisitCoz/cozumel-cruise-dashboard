@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-05-31T12:10:44.774Z",
+  "lastUpdated": "2026-06-02T14:52:04.758Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3267,7 +3267,7 @@
       "eta": "06:30",
       "departure": "2026-06-01",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S REGAL PRINCESS",
@@ -3276,7 +3276,7 @@
       "eta": "06:30",
       "departure": "2026-06-01",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -3285,7 +3285,7 @@
       "eta": "06:30",
       "departure": "2026-06-01",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -3294,7 +3294,7 @@
       "eta": "07:30",
       "departure": "2026-06-01",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -3303,7 +3303,7 @@
       "eta": "06:15",
       "departure": "2026-06-02",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -3312,7 +3312,7 @@
       "eta": "06:30",
       "departure": "2026-06-02",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -3321,7 +3321,7 @@
       "eta": "07:30",
       "departure": "2026-06-02",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
