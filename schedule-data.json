@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-02T14:52:04.758Z",
+  "lastUpdated": "2026-06-03T15:26:49.524Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3330,16 +3330,16 @@
       "eta": "06:00",
       "departure": "2026-06-03",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY BEYOND",
       "terminal": "SSA Mexico",
       "arrival": "2026-06-03",
-      "eta": "06:00",
+      "eta": "06:15",
       "departure": "2026-06-03",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -3348,16 +3348,7 @@
       "eta": "07:30",
       "departure": "2026-06-03",
       "etd": "19:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/S CARNIVAL BREEZE",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-06-03",
-      "eta": "08:30",
-      "departure": "2026-06-03",
-      "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARDI GRAS",
@@ -3366,7 +3357,16 @@
       "eta": "08:30",
       "departure": "2026-06-03",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
+    },
+    {
+      "ship": "M/S CARNIVAL BREEZE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-06-03",
+      "eta": "08:30",
+      "departure": "2026-06-03",
+      "etd": "17:00",
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
