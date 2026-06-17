@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-16T15:52:44.315Z",
+  "lastUpdated": "2026-06-17T14:25:44.334Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3654,7 +3654,7 @@
       "eta": "06:00",
       "departure": "2026-06-17",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -3663,7 +3663,7 @@
       "eta": "07:00",
       "departure": "2026-06-17",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -3672,7 +3672,7 @@
       "eta": "07:30",
       "departure": "2026-06-17",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
