@@ -76,6 +76,24 @@ body {
     text-align: right;
 }
 
+.book-tours-link {
+    display: inline-block;
+    margin-bottom: 0.4rem;
+    padding: 0.35rem 0.9rem;
+    background: var(--orange-500);
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.book-tours-link:hover {
+    background: #ea580c;
+    transform: translateY(-1px);
+}
+
 .date-display {
     font-size: 1rem;
     font-weight: 600;
