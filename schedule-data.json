@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-21T13:05:18.218Z",
+  "lastUpdated": "2026-06-22T15:50:54.886Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3762,7 +3762,7 @@
       "eta": "05:30",
       "departure": "2026-06-20",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -3771,7 +3771,7 @@
       "eta": "06:15",
       "departure": "2026-06-20",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -3780,7 +3780,7 @@
       "eta": "07:30",
       "departure": "2026-06-20",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -3789,7 +3789,7 @@
       "eta": "08:30",
       "departure": "2026-06-22",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
