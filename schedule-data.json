@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-22T15:50:54.886Z",
+  "lastUpdated": "2026-06-23T13:42:28.663Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3714,9 +3714,9 @@
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
       "terminal": "SSA Mexico",
       "arrival": "2026-06-18",
-      "eta": "07:00",
+      "eta": "09:00",
       "departure": "2026-06-18",
-      "etd": "16:00",
+      "etd": "17:00",
       "status": "Arrived"
     },
     {
@@ -3798,7 +3798,7 @@
       "eta": "06:00",
       "departure": "2026-06-23",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -3807,7 +3807,7 @@
       "eta": "06:15",
       "departure": "2026-06-23",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -3816,7 +3816,7 @@
       "eta": "06:30",
       "departure": "2026-06-23",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY DESTINY",
