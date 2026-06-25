@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-24T13:22:03.247Z",
+  "lastUpdated": "2026-06-25T13:16:56.069Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3824,8 +3824,8 @@
       "arrival": "2026-06-24",
       "eta": "06:30",
       "departure": "2026-06-24",
-      "etd": "17:00",
-      "status": "Scheduled"
+      "etd": "16:15",
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -3834,7 +3834,7 @@
       "eta": "07:30",
       "departure": "2026-06-24",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -3843,7 +3843,7 @@
       "eta": "08:30",
       "departure": "2026-06-24",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -3855,7 +3855,7 @@
       "status": "Scheduled"
     },
     {
-      "ship": "M/S CARNIVAL DREAM",
+      "ship": "M/S CARNIVAL JUBILEE",
       "terminal": "Puerta Maya",
       "arrival": "2026-06-25",
       "eta": "06:30",
@@ -3864,7 +3864,7 @@
       "status": "Scheduled"
     },
     {
-      "ship": "M/S CARNIVAL JUBILEE",
+      "ship": "M/S CARNIVAL DREAM",
       "terminal": "Puerta Maya",
       "arrival": "2026-06-25",
       "eta": "06:30",
