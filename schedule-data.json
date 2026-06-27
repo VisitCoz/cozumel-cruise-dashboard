@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-26T13:10:50.549Z",
+  "lastUpdated": "2026-06-27T12:08:09.040Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3888,7 +3888,7 @@
       "eta": "05:30",
       "departure": "2026-06-26",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
@@ -3897,7 +3897,7 @@
       "eta": "06:15",
       "departure": "2026-06-26",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -3906,7 +3906,7 @@
       "eta": "07:30",
       "departure": "2026-06-26",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -3915,7 +3915,7 @@
       "eta": "07:45",
       "departure": "2026-06-26",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
