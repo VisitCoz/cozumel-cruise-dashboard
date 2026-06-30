@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-06-29T14:47:22.571Z",
+  "lastUpdated": "2026-06-30T13:08:49.836Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -3922,7 +3922,7 @@
       "terminal": "SSA Mexico",
       "arrival": "2026-06-27",
       "eta": "06:00",
-      "departure": "2026-06-26",
+      "departure": "2026-06-27",
       "etd": "15:00",
       "status": "Arrived"
     },
