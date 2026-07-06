@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-07-05T12:15:41.130Z",
+  "lastUpdated": "2026-07-06T14:24:26.117Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4113,7 +4113,7 @@
       "eta": "05:30",
       "departure": "2026-07-04",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -4122,7 +4122,7 @@
       "eta": "06:15",
       "departure": "2026-07-04",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -4131,7 +4131,7 @@
       "eta": "07:30",
       "departure": "2026-07-04",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY DESTINY",
@@ -4140,7 +4140,7 @@
       "eta": "06:30",
       "departure": "2026-07-06",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
@@ -4149,7 +4149,7 @@
       "eta": "07:15",
       "departure": "2026-07-06",
       "etd": "17:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -4158,7 +4158,7 @@
       "eta": "08:30",
       "departure": "2026-07-06",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
