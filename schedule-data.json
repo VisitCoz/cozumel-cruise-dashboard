@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-07-10T13:10:56.937Z",
+  "lastUpdated": "2026-07-14T12:11:54.428Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4257,7 +4257,7 @@
       "eta": "05:30",
       "departure": "2026-07-10",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -4266,7 +4266,7 @@
       "eta": "07:30",
       "departure": "2026-07-10",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -4275,7 +4275,7 @@
       "eta": "07:45",
       "departure": "2026-07-10",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -4284,7 +4284,7 @@
       "eta": "06:00",
       "departure": "2026-07-11",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -4293,7 +4293,7 @@
       "eta": "06:15",
       "departure": "2026-07-11",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -4302,7 +4302,7 @@
       "eta": "08:30",
       "departure": "2026-07-11",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -4311,16 +4311,7 @@
       "eta": "06:30",
       "departure": "2026-07-13",
       "etd": "17:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "M/S REGAL PRINCESS",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-07-13",
-      "eta": "06:30",
-      "departure": "2026-07-13",
-      "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -4329,7 +4320,7 @@
       "eta": "06:30",
       "departure": "2026-07-13",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
