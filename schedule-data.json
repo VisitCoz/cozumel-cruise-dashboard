@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-07-14T12:11:54.428Z",
+  "lastUpdated": "2026-07-15T12:13:49.704Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4329,7 +4329,7 @@
       "eta": "05:30",
       "departure": "2026-07-14",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -4338,7 +4338,7 @@
       "eta": "06:15",
       "departure": "2026-07-14",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -4347,7 +4347,7 @@
       "eta": "06:30",
       "departure": "2026-07-14",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -4356,7 +4356,7 @@
       "eta": "07:30",
       "departure": "2026-07-14",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL CELEBRATION",
@@ -4365,7 +4365,7 @@
       "eta": "08:30",
       "departure": "2026-07-14",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY BEYOND",
@@ -4437,6 +4437,15 @@
       "eta": "07:15",
       "departure": "2026-07-16",
       "etd": "18:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "M/S REGAL PRINCESS",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-07-16",
+      "eta": "08:15",
+      "departure": "2026-07-16",
+      "etd": "19:30",
       "status": "Scheduled"
     },
     {
