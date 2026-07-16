@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-07-15T12:13:49.704Z",
+  "lastUpdated": "2026-07-16T12:19:33.247Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4368,22 +4368,22 @@
       "status": "Arrived"
     },
     {
-      "ship": "CELEBRITY BEYOND",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-07-15",
-      "eta": "06:00",
-      "departure": "2026-07-15",
-      "etd": "15:30",
-      "status": "Scheduled"
-    },
-    {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
       "terminal": "SSA Mexico",
       "arrival": "2026-07-15",
       "eta": "06:00",
       "departure": "2026-07-15",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
+    },
+    {
+      "ship": "CELEBRITY BEYOND",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-07-15",
+      "eta": "06:00",
+      "departure": "2026-07-15",
+      "etd": "15:30",
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -4392,7 +4392,7 @@
       "eta": "07:30",
       "departure": "2026-07-15",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -4401,7 +4401,7 @@
       "eta": "08:30",
       "departure": "2026-07-15",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
