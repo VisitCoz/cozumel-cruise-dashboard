@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-07-27T13:38:44.219Z",
+  "lastUpdated": "2026-07-28T12:52:46.866Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4653,7 +4653,7 @@
       "eta": "06:00",
       "departure": "2026-07-25",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -4662,7 +4662,7 @@
       "eta": "06:15",
       "departure": "2026-07-25",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -4671,7 +4671,7 @@
       "eta": "08:30",
       "departure": "2026-07-25",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY REFLECTION",
@@ -4680,7 +4680,7 @@
       "eta": "06:00",
       "departure": "2026-07-26",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -4689,7 +4689,7 @@
       "eta": "06:15",
       "departure": "2026-07-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -4698,7 +4698,7 @@
       "eta": "06:30",
       "departure": "2026-07-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -4707,7 +4707,7 @@
       "eta": "06:30",
       "departure": "2026-07-27",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -4716,7 +4716,7 @@
       "eta": "06:30",
       "departure": "2026-07-27",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
