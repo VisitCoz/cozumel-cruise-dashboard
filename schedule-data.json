@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-05T12:51:11.904Z",
+  "lastUpdated": "2026-08-06T12:55:18.912Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -4941,7 +4941,7 @@
       "eta": "06:30",
       "departure": "2026-08-05",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -4950,7 +4950,7 @@
       "eta": "08:30",
       "departure": "2026-08-05",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -4959,6 +4959,15 @@
       "eta": "06:15",
       "departure": "2026-08-06",
       "etd": "16:30",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "ENCHANTMENT OF THE SEAS",
+      "terminal": "SSA Mexico",
+      "arrival": "2026-08-06",
+      "eta": "06:15",
+      "departure": "2026-08-06",
+      "etd": "19:00",
       "status": "Scheduled"
     },
     {
@@ -4977,15 +4986,6 @@
       "eta": "06:30",
       "departure": "2026-08-06",
       "etd": "16:00",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "ENCHANTMENT OF THE SEAS",
-      "terminal": "SSA Mexico",
-      "arrival": "2026-08-06",
-      "eta": "08:15",
-      "departure": "2026-08-06",
-      "etd": "19:00",
       "status": "Scheduled"
     },
     {
@@ -5028,7 +5028,7 @@
       "ship": "RADIANCE OF THE SEAS",
       "terminal": "Punta Langosta",
       "arrival": "2026-08-08",
-      "eta": "07:00",
+      "eta": "06:15",
       "departure": "2026-08-08",
       "etd": "17:00",
       "status": "Scheduled"
