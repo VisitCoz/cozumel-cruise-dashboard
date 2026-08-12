@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-11T11:42:32.685Z",
+  "lastUpdated": "2026-08-12T11:44:21.366Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5085,7 +5085,7 @@
       "eta": "05:30",
       "departure": "2026-08-11",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -5094,7 +5094,7 @@
       "eta": "06:15",
       "departure": "2026-08-11",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN ESCAPE",
@@ -5103,7 +5103,7 @@
       "eta": "06:30",
       "departure": "2026-08-11",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -5133,21 +5133,21 @@
       "status": "Scheduled"
     },
     {
+      "ship": "RADIANCE OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-08-13",
+      "eta": "06:15",
+      "departure": "2026-08-13",
+      "etd": "17:00",
+      "status": "Scheduled"
+    },
+    {
       "ship": "M/S SYMPHONY OF THE SEAS",
       "terminal": "SSA Mexico",
       "arrival": "2026-08-13",
       "eta": "06:15",
       "departure": "2026-08-13",
       "etd": "16:45",
-      "status": "Scheduled"
-    },
-    {
-      "ship": "RADIANCE OF THE SEAS",
-      "terminal": "Punta Langosta",
-      "arrival": "2026-08-13",
-      "eta": "07:00",
-      "departure": "2026-08-13",
-      "etd": "17:00",
       "status": "Scheduled"
     },
     {
@@ -5165,7 +5165,7 @@
       "arrival": "2026-08-13",
       "eta": "10:00",
       "departure": "2026-08-13",
-      "etd": "16:00",
+      "etd": "19:30",
       "status": "Scheduled"
     },
     {
