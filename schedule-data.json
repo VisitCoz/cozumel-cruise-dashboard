@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-14T11:42:07.100Z",
+  "lastUpdated": "2026-08-15T11:19:05.972Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5175,7 +5175,7 @@
       "eta": "06:00",
       "departure": "2026-08-14",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -5184,7 +5184,7 @@
       "eta": "07:30",
       "departure": "2026-08-14",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -5193,7 +5193,7 @@
       "eta": "07:30",
       "departure": "2026-08-14",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
@@ -5205,21 +5205,21 @@
       "status": "Scheduled"
     },
     {
-      "ship": "MARINER OF THE SEAS",
-      "terminal": "Punta Langosta",
-      "arrival": "2026-08-15",
-      "eta": "06:15",
-      "departure": "2026-08-15",
-      "etd": "16:30",
-      "status": "Scheduled"
-    },
-    {
       "ship": "M/S CARNIVAL VALOR",
       "terminal": "Puerta Maya",
       "arrival": "2026-08-15",
       "eta": "06:30",
       "departure": "2026-08-15",
       "etd": "16:00",
+      "status": "Scheduled"
+    },
+    {
+      "ship": "MARINER OF THE SEAS",
+      "terminal": "Punta Langosta",
+      "arrival": "2026-08-15",
+      "eta": "08:20",
+      "departure": "2026-08-15",
+      "etd": "17:30",
       "status": "Scheduled"
     },
     {
@@ -5262,7 +5262,7 @@
       "ship": "RADIANCE OF THE SEAS",
       "terminal": "Punta Langosta",
       "arrival": "2026-08-18",
-      "eta": "07:00",
+      "eta": "06:15",
       "departure": "2026-08-18",
       "etd": "17:00",
       "status": "Scheduled"
