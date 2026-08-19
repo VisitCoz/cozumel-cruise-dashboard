@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-18T11:23:46.163Z",
+  "lastUpdated": "2026-08-19T11:23:52.518Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5265,7 +5265,7 @@
       "eta": "06:15",
       "departure": "2026-08-18",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S FREEDOM OF THE SEAS",
