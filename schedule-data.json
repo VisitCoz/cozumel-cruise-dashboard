@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-19T11:23:52.518Z",
+  "lastUpdated": "2026-08-20T11:24:59.655Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5052,15 +5052,6 @@
       "status": "Arrived"
     },
     {
-      "ship": "M/S REGAL PRINCESS",
-      "terminal": "Puerta Maya",
-      "arrival": "2026-08-10",
-      "eta": "06:30",
-      "departure": "2026-08-10",
-      "etd": "16:00",
-      "status": "Arrived"
-    },
-    {
       "ship": "M/S CARNIVAL VALOR",
       "terminal": "Puerta Maya",
       "arrival": "2026-08-10",
@@ -5071,6 +5062,15 @@
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
+      "terminal": "Puerta Maya",
+      "arrival": "2026-08-10",
+      "eta": "06:30",
+      "departure": "2026-08-10",
+      "etd": "16:00",
+      "status": "Arrived"
+    },
+    {
+      "ship": "M/S REGAL PRINCESS",
       "terminal": "Puerta Maya",
       "arrival": "2026-08-10",
       "eta": "06:30",
@@ -5274,7 +5274,7 @@
       "eta": "06:30",
       "departure": "2026-08-19",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -5283,7 +5283,7 @@
       "eta": "06:30",
       "departure": "2026-08-19",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -5292,7 +5292,7 @@
       "eta": "07:00",
       "departure": "2026-08-19",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -5301,7 +5301,7 @@
       "eta": "08:30",
       "departure": "2026-08-19",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
