@@ -1,6 +1,42 @@
 // ── Utility Functions ─────────────────────────────
+// Cozumel / Quintana Roo is UTC−5 year-round (no DST). Compute dates and
+// times in port-local time so the dashboard doesn't roll over to "tomorrow"
+// in the evening (when UTC has already crossed midnight).
+function cozumelNow() {
+    const fmt = new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Cancun',
+        hour12: false,
+        year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit',
+    });
+    const parts = {};
+    for (const p of fmt.formatToParts(new Date())) parts[p.type] = p.value;
+    let hour = parts.hour === '24' ? '00' : parts.hour; // some engines emit 24:00
+    return {
+        date: `${parts.year}-${parts.month}-${parts.day}`,
+        time: `${hour}:${parts.minute}`,
+    };
+}
+
 function todayStr() {
-    return new Date().toISOString().split('T')[0];
+    return cozumelNow().date;
+}
+
+// Local-component date string (YYYY-MM-DD) — avoids UTC shifting when adding days.
+function ymd(d) {
+    const m = String(d.getMonth() + 1).padStart(2, '0');
+    const day = String(d.getDate()).padStart(2, '0');
+    return `${d.getFullYear()}-${m}-${day}`;
+}
+
+// Escape untrusted scraped strings before inserting into HTML.
+function escapeHtml(str) {
+    return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
 }
 
 function formatDate(dateStr) {
@@ -14,22 +50,19 @@ function formatDayName(dateStr) {
 }
 
 function getShipStatus(entry) {
-    const now = new Date();
-    const today = todayStr();
+    const { date: today, time: now } = cozumelNow();
 
-    // If not today, use the source status
-    if (entry.date !== today) {
-        if (entry.date < today) return { label: 'Arrived', cssClass: 'status-departed' };
-        return { label: 'Scheduled', cssClass: 'status-arriving' };
-    }
+    // If not today, use the source date
+    if (entry.date < today) return { label: 'Departed', cssClass: 'status-departed' };
+    if (entry.date > today) return { label: 'Scheduled', cssClass: 'status-arriving' };
 
-    // For today, compute live status
-    const arrTime = new Date(today + 'T' + entry.arrival + ':00');
-    const depDate = entry.departureDate || today;
-    const depTime = new Date(depDate + 'T' + entry.departure + ':00');
+    // For today, compute live status from the port-local clock.
+    // Times are "HH:MM" strings, so lexical comparison is correct.
+    const stillDocked = entry.departureDate && entry.departureDate > today;
+    const departTime = stillDocked ? '24:00' : entry.departure;
 
-    if (now < arrTime) return { label: 'Arriving', cssClass: 'status-arriving' };
-    if (now > depTime) return { label: 'Departed', cssClass: 'status-departed' };
+    if (now < entry.arrival) return { label: 'Arriving', cssClass: 'status-arriving' };
+    if (now > departTime) return { label: 'Departed', cssClass: 'status-departed' };
     return { label: 'In Port', cssClass: 'status-in-port' };
 }
 
@@ -86,8 +119,8 @@ function renderToday() {
 
         return `
             <div class="ship-card dock-${dock.cssClass}">
-                <div class="ship-name">${ship.shipClean}</div>
-                <div class="cruise-line" style="color:${ship.line.color}">${ship.line.name}</div>
+                <div class="ship-name">${escapeHtml(ship.shipClean)}</div>
+                <div class="cruise-line" style="color:${ship.line.color}">${escapeHtml(ship.line.name)}</div>
                 <div class="ship-details">
                     <div class="detail">
                         <span class="detail-label">Arrives</span>
@@ -120,10 +153,11 @@ function renderWeek() {
     const today = todayStr();
     const days = [];
 
+    const base = new Date(today + 'T12:00:00');
     for (let i = 0; i < 7; i++) {
-        const d = new Date();
+        const d = new Date(base);
         d.setDate(d.getDate() + i);
-        days.push(d.toISOString().split('T')[0]);
+        days.push(ymd(d));
     }
 
     let html = '';
@@ -147,8 +181,8 @@ function renderWeek() {
                 html += `
                     <div class="week-ship-row">
                         <div class="week-ship-info">
-                            <div class="week-ship-name">${ship.shipClean}</div>
-                            <div class="week-ship-line" style="color:${ship.line.color}">${ship.line.name}</div>
+                            <div class="week-ship-name">${escapeHtml(ship.shipClean)}</div>
+                            <div class="week-ship-line" style="color:${ship.line.color}">${escapeHtml(ship.line.name)}</div>
                         </div>
                         <div class="week-ship-times">
                             <div class="week-ship-time">${ship.arrival} - ${ship.departure}</div>
@@ -182,7 +216,7 @@ function getMonday(d) {
     return dt;
 }
 
-calendarWeekStart = getMonday(new Date());
+calendarWeekStart = getMonday(new Date(todayStr() + 'T12:00:00'));
 
 function renderCalendar() {
     const grid = document.getElementById('calendarGrid');
@@ -198,7 +232,7 @@ function renderCalendar() {
     for (let i = 0; i < 7; i++) {
         const d = new Date(weekStart);
         d.setDate(d.getDate() + i);
-        const dateStr = d.toISOString().split('T')[0];
+        const dateStr = ymd(d);
         const isToday = dateStr === today;
         const ships = getShipsByDate(dateStr);
 
@@ -209,7 +243,7 @@ function renderCalendar() {
         ships.slice(0, maxShow).forEach(ship => {
             const dock = getDock(ship.dock);
             const tipText = `${ship.shipClean} (${ship.line.name}) - ${ship.arrival}-${ship.departure} at ${dock.name}`;
-            html += `<div class="cal-ship ${dock.calClass}" title="${tipText}">${ship.shipClean}</div>`;
+            html += `<div class="cal-ship ${dock.calClass}" title="${escapeHtml(tipText)}">${escapeHtml(ship.shipClean)}</div>`;
         });
 
         if (ships.length > maxShow) {
@@ -243,7 +277,16 @@ function updateSourceInfo() {
 }
 
 // ── Auto-refresh status badges every minute ───────
+let lastRenderedDate = todayStr();
 function refreshStatuses() {
+    const current = todayStr();
+    if (current !== lastRenderedDate) {
+        // Day rolled over in Cozumel — refresh every view.
+        lastRenderedDate = current;
+        document.getElementById('currentDate').textContent = formatDate(current);
+        renderWeek();
+        renderCalendar();
+    }
     renderToday();
 }
 

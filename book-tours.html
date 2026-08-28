@@ -49,6 +49,17 @@
             opacity: 0.3;
         }
         .hero-content { position: relative; max-width: 800px; margin: 0 auto; }
+        .back-link {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 0.75rem;
+            color: white;
+            opacity: 0.85;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .back-link:hover { opacity: 1; text-decoration: underline; }
         .hero h1 { font-size: 2rem; font-weight: 800; margin-bottom: 0.25rem; letter-spacing: -0.02em; }
         .hero p { font-size: 1.05rem; opacity: 0.85; }
         .hero-badge {
@@ -341,6 +352,7 @@
     <!-- Hero -->
     <header class="hero">
         <div class="hero-content">
+            <a href="index.html" class="back-link">&larr; Back to Port Dashboard</a>
             <h1>Tierra Maya Tours</h1>
             <p>Authentic Cozumel shore excursions for cruise passengers</p>
             <div class="hero-badge" id="heroBadge">Loading ships...</div>
