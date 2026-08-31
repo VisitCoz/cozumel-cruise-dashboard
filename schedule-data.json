@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-30T15:10:05.032Z",
+  "lastUpdated": "2026-08-31T17:54:28.489Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5544,7 +5544,7 @@
       "eta": "05:30",
       "departure": "2026-08-29",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -5553,7 +5553,7 @@
       "eta": "06:15",
       "departure": "2026-08-29",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -5562,7 +5562,7 @@
       "eta": "06:30",
       "departure": "2026-08-29",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -5571,7 +5571,7 @@
       "eta": "06:00",
       "departure": "2026-08-31",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -5580,7 +5580,7 @@
       "eta": "06:30",
       "departure": "2026-08-31",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -5589,7 +5589,7 @@
       "eta": "08:30",
       "departure": "2026-08-31",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S HARMONY OF THE SEAS",
