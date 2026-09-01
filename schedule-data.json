@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-08-31T17:54:28.489Z",
+  "lastUpdated": "2026-09-01T15:23:23.374Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5598,7 +5598,7 @@
       "eta": "05:45",
       "departure": "2026-09-01",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -5607,7 +5607,7 @@
       "eta": "06:15",
       "departure": "2026-09-01",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "STAR OF THE SEAS",
