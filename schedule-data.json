@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-01T15:23:23.374Z",
+  "lastUpdated": "2026-09-02T14:58:24.525Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5616,7 +5616,7 @@
       "eta": "06:00",
       "departure": "2026-09-02",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S FREEDOM OF THE SEAS",
@@ -5625,7 +5625,7 @@
       "eta": "06:30",
       "departure": "2026-09-02",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -5634,7 +5634,7 @@
       "eta": "06:30",
       "departure": "2026-09-02",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -5643,7 +5643,7 @@
       "eta": "08:30",
       "departure": "2026-09-02",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
