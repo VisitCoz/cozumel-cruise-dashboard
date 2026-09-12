@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-11T14:50:29.049Z",
+  "lastUpdated": "2026-09-12T13:54:16.405Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5859,7 +5859,7 @@
       "eta": "06:30",
       "departure": "2026-09-11",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL CELEBRATION",
@@ -5868,7 +5868,7 @@
       "eta": "06:30",
       "departure": "2026-09-11",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -5877,7 +5877,7 @@
       "eta": "07:30",
       "departure": "2026-09-11",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
