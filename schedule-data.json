@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-14T16:47:24.335Z",
+  "lastUpdated": "2026-09-15T15:26:45.474Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5913,7 +5913,7 @@
       "eta": "06:15",
       "departure": "2026-09-15",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
