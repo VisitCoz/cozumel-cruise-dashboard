@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-16T15:19:58.308Z",
+  "lastUpdated": "2026-09-17T15:26:02.620Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -5922,7 +5922,7 @@
       "eta": "06:30",
       "departure": "2026-09-16",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -5931,7 +5931,7 @@
       "eta": "08:30",
       "departure": "2026-09-16",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -5940,7 +5940,7 @@
       "eta": "06:00",
       "departure": "2026-09-17",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -5949,7 +5949,7 @@
       "eta": "06:15",
       "departure": "2026-09-17",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -5958,7 +5958,7 @@
       "eta": "06:30",
       "departure": "2026-09-17",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL DREAM",
@@ -5967,7 +5967,7 @@
       "eta": "06:30",
       "departure": "2026-09-17",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -5976,7 +5976,7 @@
       "eta": "08:15",
       "departure": "2026-09-17",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
