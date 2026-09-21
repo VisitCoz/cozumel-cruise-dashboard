@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-20T14:31:07.689Z",
+  "lastUpdated": "2026-09-21T16:47:47.849Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6012,7 +6012,7 @@
       "eta": "06:15",
       "departure": "2026-09-19",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -6021,7 +6021,7 @@
       "eta": "08:30",
       "departure": "2026-09-19",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -6030,7 +6030,7 @@
       "eta": "06:00",
       "departure": "2026-09-21",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -6039,7 +6039,7 @@
       "eta": "06:30",
       "departure": "2026-09-21",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -6048,7 +6048,7 @@
       "eta": "06:30",
       "departure": "2026-09-21",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
