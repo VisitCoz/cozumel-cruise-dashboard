@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-21T16:47:47.849Z",
+  "lastUpdated": "2026-09-22T15:25:30.609Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6057,7 +6057,7 @@
       "eta": "05:30",
       "departure": "2026-09-22",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -6066,7 +6066,7 @@
       "eta": "06:15",
       "departure": "2026-09-22",
       "etd": "16:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARDI GRAS",
@@ -6075,7 +6075,7 @@
       "eta": "06:30",
       "departure": "2026-09-22",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
