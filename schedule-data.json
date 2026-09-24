@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-23T15:18:10.472Z",
+  "lastUpdated": "2026-09-24T15:42:44.370Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6111,7 +6111,7 @@
       "eta": "06:15",
       "departure": "2026-09-24",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
@@ -6120,7 +6120,7 @@
       "eta": "06:15",
       "departure": "2026-09-24",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL DREAM",
@@ -6129,7 +6129,7 @@
       "eta": "06:30",
       "departure": "2026-09-24",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -6138,7 +6138,7 @@
       "eta": "07:15",
       "departure": "2026-09-24",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S REGAL PRINCESS",
@@ -6147,7 +6147,7 @@
       "eta": "07:30",
       "departure": "2026-09-24",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "CELEBRITY BEYOND",
@@ -6156,7 +6156,7 @@
       "eta": "10:00",
       "departure": "2026-09-24",
       "etd": "19:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "STAR OF THE SEAS",
