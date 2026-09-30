@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-29T16:47:41.933Z",
+  "lastUpdated": "2026-09-30T16:40:08.594Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6264,7 +6264,7 @@
       "eta": "06:30",
       "departure": "2026-09-30",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -6273,7 +6273,7 @@
       "eta": "07:00",
       "departure": "2026-09-30",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC WORLD AMERICA",
@@ -6282,7 +6282,7 @@
       "eta": "08:30",
       "departure": "2026-09-30",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
