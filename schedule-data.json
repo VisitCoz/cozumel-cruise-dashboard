@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-09-30T16:40:08.594Z",
+  "lastUpdated": "2026-10-01T17:16:28.188Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6291,7 +6291,7 @@
       "eta": "06:00",
       "departure": "2026-10-01",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -6300,7 +6300,7 @@
       "eta": "06:30",
       "departure": "2026-10-01",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -6309,7 +6309,7 @@
       "eta": "08:15",
       "departure": "2026-10-01",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
