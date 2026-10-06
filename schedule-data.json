@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-04T15:40:27.100Z",
+  "lastUpdated": "2026-10-06T17:02:46.233Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6318,7 +6318,7 @@
       "eta": "06:15",
       "departure": "2026-10-02",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -6327,7 +6327,7 @@
       "eta": "07:30",
       "departure": "2026-10-02",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -6336,7 +6336,7 @@
       "eta": "07:45",
       "departure": "2026-10-02",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -6345,7 +6345,7 @@
       "eta": "06:30",
       "departure": "2026-10-03",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -6354,7 +6354,7 @@
       "eta": "08:30",
       "departure": "2026-10-03",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY TREASURE",
@@ -6363,7 +6363,7 @@
       "eta": "06:30",
       "departure": "2026-10-05",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -6372,7 +6372,7 @@
       "eta": "06:30",
       "departure": "2026-10-05",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
@@ -6381,7 +6381,7 @@
       "eta": "05:30",
       "departure": "2026-10-06",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -6390,7 +6390,7 @@
       "eta": "06:30",
       "departure": "2026-10-06",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL CELEBRATION",
@@ -6399,7 +6399,7 @@
       "eta": "06:30",
       "departure": "2026-10-06",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S SYMPHONY OF THE SEAS",
@@ -6408,7 +6408,7 @@
       "eta": "07:15",
       "departure": "2026-10-06",
       "etd": "17:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
