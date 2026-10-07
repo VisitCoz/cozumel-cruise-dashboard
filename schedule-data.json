@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-06T17:02:46.233Z",
+  "lastUpdated": "2026-10-07T17:40:36.286Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6417,7 +6417,7 @@
       "eta": "07:30",
       "departure": "2026-10-07",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -6426,7 +6426,7 @@
       "eta": "08:30",
       "departure": "2026-10-07",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY REFLECTION",
@@ -6435,7 +6435,7 @@
       "eta": "09:00",
       "departure": "2026-10-07",
       "etd": "20:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
