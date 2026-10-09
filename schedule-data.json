@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-08T17:44:27.532Z",
+  "lastUpdated": "2026-10-09T17:20:34.913Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6498,7 +6498,7 @@
       "eta": "06:30",
       "departure": "2026-10-09",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -6507,7 +6507,7 @@
       "eta": "07:30",
       "departure": "2026-10-09",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
