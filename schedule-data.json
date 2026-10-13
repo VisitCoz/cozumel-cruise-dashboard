@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-12T20:07:07.340Z",
+  "lastUpdated": "2026-10-13T17:56:38.764Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6561,7 +6561,7 @@
       "eta": "06:30",
       "departure": "2026-10-13",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -6570,7 +6570,7 @@
       "eta": "06:30",
       "departure": "2026-10-13",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "STAR OF THE SEAS",
