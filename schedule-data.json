@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-15T15:29:51.276Z",
+  "lastUpdated": "2026-10-16T15:13:43.703Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6642,7 +6642,7 @@
       "eta": "06:15",
       "departure": "2026-10-16",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -6651,7 +6651,7 @@
       "eta": "07:30",
       "departure": "2026-10-16",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN PRIMA",
@@ -6660,7 +6660,7 @@
       "eta": "07:45",
       "departure": "2026-10-16",
       "etd": "17:30",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
