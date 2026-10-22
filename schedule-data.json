@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-21T15:49:51.729Z",
+  "lastUpdated": "2026-10-22T15:47:17.201Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6732,7 +6732,7 @@
       "eta": "06:30",
       "departure": "2026-10-21",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ICON OF THE SEAS",
@@ -6741,7 +6741,7 @@
       "eta": "07:00",
       "departure": "2026-10-21",
       "etd": "18:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V MSC SEASHORE",
@@ -6750,7 +6750,7 @@
       "eta": "07:30",
       "departure": "2026-10-21",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -6759,7 +6759,7 @@
       "eta": "08:30",
       "departure": "2026-10-21",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
