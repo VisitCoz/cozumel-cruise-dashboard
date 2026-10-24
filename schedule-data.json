@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-23T15:38:28.203Z",
+  "lastUpdated": "2026-10-24T14:16:00.066Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6813,7 +6813,7 @@
       "eta": "06:15",
       "departure": "2026-10-23",
       "etd": "16:45",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CARNIVAL LIBERTY",
@@ -6822,7 +6822,7 @@
       "eta": "06:30",
       "departure": "2026-10-23",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S MSC SEASCAPE",
@@ -6831,7 +6831,7 @@
       "eta": "07:30",
       "departure": "2026-10-23",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL PARADISE",
