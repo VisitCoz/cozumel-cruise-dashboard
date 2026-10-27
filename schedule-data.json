@@ -1,6 +1,6 @@
 {
   "source": "https://servicios.apiqroo.com.mx/programacion/",
-  "lastUpdated": "2026-10-26T17:07:44.527Z",
+  "lastUpdated": "2026-10-27T16:12:24.494Z",
   "schedule": [
     {
       "ship": "M/S INSIGNIA",
@@ -6840,7 +6840,7 @@
       "eta": "05:30",
       "departure": "2026-10-24",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARINER OF THE SEAS",
@@ -6849,7 +6849,7 @@
       "eta": "06:30",
       "departure": "2026-10-24",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL VALOR",
@@ -6858,7 +6858,7 @@
       "eta": "06:30",
       "departure": "2026-10-24",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL MIRACLE",
@@ -6867,7 +6867,7 @@
       "eta": "07:30",
       "departure": "2026-10-24",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "MARGARITAVILLE AT SEA ISLANDER",
@@ -6876,7 +6876,7 @@
       "eta": "06:00",
       "departure": "2026-10-26",
       "etd": "15:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S DISNEY DESTINY",
@@ -6885,7 +6885,7 @@
       "eta": "06:30",
       "departure": "2026-10-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "RADIANCE OF THE SEAS",
@@ -6894,7 +6894,7 @@
       "eta": "06:30",
       "departure": "2026-10-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S REGAL PRINCESS",
@@ -6903,7 +6903,7 @@
       "eta": "06:30",
       "departure": "2026-10-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL BREEZE",
@@ -6912,7 +6912,7 @@
       "eta": "08:30",
       "departure": "2026-10-26",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/V CELEBRITY SUMMIT",
@@ -6921,7 +6921,7 @@
       "eta": "06:00",
       "departure": "2026-10-27",
       "etd": "19:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "ENCHANTMENT OF THE SEAS",
@@ -6930,7 +6930,7 @@
       "eta": "06:30",
       "departure": "2026-10-27",
       "etd": "17:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S CARNIVAL JUBILEE",
@@ -6939,7 +6939,7 @@
       "eta": "06:30",
       "departure": "2026-10-27",
       "etd": "16:00",
-      "status": "Scheduled"
+      "status": "Arrived"
     },
     {
       "ship": "M/S NORWEGIAN JEWEL",
